@@ -6,7 +6,7 @@ st.sidebar.title("Menu")
 opciones_inicio=st.sidebar.radio("Seleccione una opción",["Inicio","Datos","Cálculos"])
 
 
-archivos_las=lasio.read("archivos_las\LGAE-040.las")
+archivos_las=lasio.read("LGAE-040.las")
 df=archivos_las.df()
 
 
